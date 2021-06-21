@@ -1,0 +1,241 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+.container{
+    margin: 0 10rem;
+}
+.pt1{
+    /* pt1 is used to give the distance between header and paragraph */
+    padding-top:0.8rem;
+}
+.pt2{
+    margin:1rem 1rem;
+}
+/* pt4 class has been made as common class fpr the sepearation of different header classes*/
+.pt4{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+header{
+ 
+    font-family: 'Roboto', sans-serif;
+    height:67rem;
+}
+nav{
+ 
+    width:100%;
+    position:fixed;
+    background-color:#A42455;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top:1rem;
+    /* z-index has been used to stick the index(nav) bar in the top of the websites. */
+}
+.logo{
+    flex:20%;
+    margin-left: 5em;
+}
+.logo img{
+    width: 5rem;
+   
+}
+nav ul{
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type:none;
+    padding: 2rem 1rem;
+}
+nav ul li a {
+   
+    color:white;
+    
+    text-decoration:none;
+    /* justify-content:center;
+    display:flex;
+    text-align:center; */
+}
+.donate{
+    background-color:white;
+    color:black;
+    padding: 0.6rem 2rem;
+border-radius: 20px;
+
+}
+nav ul li a:hover{
+    font-weight:bold;
+}
+.background{
+    width:100%;
+
+    background-image: url('/assets/image/hero_image.jpg');
+    
+    height: 100%;
+background-repeat: no-repeat;
+
+}
+.slogan{
+    padding-top: 20rem;  
+    text-align: center;
+}
+.slogan h1{
+    color:white;
+    text-align: center;
+ font-size:1.55rem;
+ letter-spacing:0.2rem;
+ margin-bottom: 2rem;
+ 
+   
+}
+.slogan h2{
+    color:white;
+    text-align: center;
+    font-size:1.7rem;
+    letter-spacing: 0.2;
+}
+.slogan h3{
+    color:white;
+    text-align: center;
+    font-size:2.25rem;
+    margin-bottom: 1rem;
+
+}
+.header_button{
+    text-decoration: underline;
+   font-size:1.2rem;
+    background-color:white;
+    color:#343434;
+    padding: 0.5rem 2.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  
+  
+}
+.header_button:hover{
+    font-weight:bold;
+}
+
+h4{
+ text-align: center;
+  font-size:1.3rem;
+
+ 
+}
+.section-title{
+    border-right: 6px solid #A42455; 
+    padding-right: 0.5rem;
+}
+
+
+   .p1{
+    text-align:justify;
+  
+}
+
+h5{
+    text-align:right;
+     font-size:1.3rem;
+    
+    
+   }
+   .header5_below{
+    display: flex;
+  }
+
+
+   /* we can change the name of this paragraph div later. */
+  
+   .p2{
+   
+       text-align: Start;
+       font-weight: bold;
+       /* justify-content: flex-start; */
+   }
+   .p3{
+       text-align: start;
+       
+   }
+   .img-responsive{
+   
+        width:17rem; 
+        height:14rem;   
+    margin-left:1rem;
+                                                                                                                                    
+    }
+    h6{
+        text-align:left;
+         font-size:1.3rem;
+        
+        
+       }
+       .header6_below{
+        display: flex;
+      }
+    
+    
+       /* we can change the name of this paragraph div later. */
+       .img-responsive1{
+       
+        width:17rem; 
+        height:14rem;   
+    margin-right:1rem;
+                                                                                                                                    
+    }
+
+       .p4{
+       
+           text-align: Start;
+           font-weight: bold;
+           /* justify-content: flex-start; */
+       }
+       .p5{
+           text-align: start;
+           
+       }
+       
+ .founder{
+     display: flex;
+     
+    
+ }
+ .founder1{
+      height:25rem;
+      width:22%;
+      background-color:#f3f0f04b;
+      border: 0.2rem solid rgba(131, 127, 127, 0.253);
+      border-radius:1rem;
+      margin-top: 1rem;
+      margin-left: 0.3rem;
+}
+ .founder_image{
+     width:12rem;
+     height:12rem;
+     display: flex;
+     justify-content: center;
+     margin: 0.5rem auto;
+     border-radius:6rem;
+
+ }
+ .Name{
+     text-align: center;
+     font-size:1.3rem;
+     font-weight:bold;
+     margin-top: 0.25rem;
+ }
+ .position{
+     text-align: center;
+     font-size:1rem;
+     text-decoration:0.1rem #A42455 underline;
+     margin-top: 0.25rem;
+    
+ }
+ .font_size1{
+     text-align: center;
+     margin-top: 0.25rem;
+ }
+
+
+
