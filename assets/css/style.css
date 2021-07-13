@@ -71,7 +71,19 @@ nav ul li a {
     padding: 0.6rem 2rem;
     border-radius: 20px;
 }
+.u-line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
 
+.u-line:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
 .background {
     width: 100%;
     background-image: url('/assets/image/hero_image.jpg');
