@@ -65,11 +65,17 @@ nav ul li a {
     text-align:center; */
 }
 
-.donate {
-    background-color: white;
-    color: black;
-    padding: 0.6rem 2rem;
-    border-radius: 20px;
+.donate{
+    background-color:white;
+    color:black;
+    padding: 0.6rem 2.5rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+.donate:hover {
+   border: 2px solid #fff;
+   color: rgb(255, 255, 255);
+   background: #e0246c;
 }
 .u-line::after {
     content: '';
